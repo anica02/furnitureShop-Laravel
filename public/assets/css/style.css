@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'EB Garamond', serif;
+}
+header{
+    font-family: 'EB Garamond', serif;
+    background-color: #fff;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    font-size:25px;
+    color:#7D4F50 !important;
+}
+
+ul li a:hover{
+    border-bottom: #839791 2px solid;
+    text-decoration: none;
+}
+
+.colorRottenCherry{
+    color:#7D4F50;
+}
+.colorMint{
+    color:#839791;
+}
+.colorPink{
+    color:#CC8B86;
+}
+.colorWhite{
+    color:#fff!important;
+
+}
+#filterP{
+    position: sticky;
+    top:8rem;
+
+}
+
+#find{
+    width:140px;
+}
+.btnFilter{
+    background-color: #839791;
+    color:#7D4F50;
+    font-weight: bold;
+}
+.font26{
+    font-size: 26px;
+}
+.font18{
+    font-size:18px;
+}
+#navigation i{
+    display: none;
+}
+
+#banner{
+    background-image: url("../img/living-room-g1b3b990f6_1280.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.marginTop{
+    margin-top: 7%;
+}
+.marginTop3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.marginTop5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#messageAdmin{
+    height:150px;
+}
+.borderBottom{
+    border-bottom: 2px solid #7D4F50;
+}
+.backgroundNav{
+    background-color:#839791;
+}
+#motto{
+    width: 30%;
+    margin-top: 17%;
+    margin-bottom: 3%;
+    border: 2px solid #7D4F50;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 30px 10px;
+}
+.tableBg{
+    background-color: white;
+}
+#buttons-Links{
+    margin:1px auto;
+}
+.marginTB{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.marginTB2{
+    margin-top:6%;
+    margin-bottom:8%;
+}
+.dugme{
+    border: 1px solid #7D4F50;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dugme:hover{
+    color:#7D4F50;
+    box-shadow: 3px 4px #839791;
+}
+.btnCart{
+    border: 1px solid #7D4F50;
+    background-color: #ffff;
+    font-size: 15px;
+}
+.btnCart:hover{
+    color:#7D4F50;
+    box-shadow: 3px 4px #839791;
+}
+
+.btnProduct{
+    border: 1px solid #7D4F50;
+    background-color: #ffff;
+    font-size: 15px;
+}
+.btnProduct:hover{
+    color:#7D4F50;
+    box-shadow: 3px 4px #839791;
+}
+
+.btnSubmit{
+    border: 2px solid #7D4F50;
+    background-color: #ffff;
+    font-size: 18px;
+}
+.btnSubmit:hover{
+    color:#7D4F50;
+    box-shadow: 3px 4px #839791;
+}
+.description{
+    padding:2%;
+    height: inherit;
+}
+.centering{
+    margin:0 auto;
+}
+.top-margin{
+    margin-top:10%;
+}
+
+#footer{
+    border-top:2px solid #839791;
+    border-radius: 5px;
+    padding: 2% 0;
+}
+
+#cart span{
+    font-size: 26px;
+    border:1px solid #7D4F50;
+    padding:3px 15px;
+    border-radius: 5px 10px;
+}
+#cart i{
+    font-size: 26px;
+}
+#cart i:hover{
+    font-size: 30px;
+}
+.borderCards{
+    border:2px solid #839791;
+    border-radius: 20px 5px;
+    border-style: outset;
+    padding: 4% 2%;
+}
+
+.borderLi{
+    border-color: #839791;
+    border-style: inset;
+}
+.week{
+    background-color: #839791;
+    color:#fff;
+    border-radius:5px 10px;
+}
+.spring{
+    background-color:#CC8B86;
+    color:#fff;
+    border-radius:5px 10px;
+}
+.holiday{
+    background-color:#7D4F50;
+    color:#fff;
+    border-radius:5px 10px;
+}
+.filterC{
+    background-color:#AA998F;
+    color:#fff;
+    border-radius: 5px 10px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+input[type=search]{
+    border: none;
+    border-bottom:2px solid #7D4F50;
+    padding: 5px;
+}
+.fontIS{
+    font-size: 22px;
+}
+.inStock{
+    color:green;
+    font-size: 17px;
+}
+.outStock{
+    color:#ae2012;
+    font-size: 17px;
+}
+.fontSize{
+    font-size: 19px;
+}
+.footerCol{
+    background-color:#839791;
+    border-radius: 5px 10px;
+    color:#fff;
+    font-size: 18px;
+}
+.fontSI{
+    font-size:25px
+}
+#socialN a:hover{
+    color:#839791;
+}
+#cart{
+    width:30%;
+}
+#cart img{
+    width: 70%;
+}
+.bcGreen{
+    background-color:#839791
+}
+
+.widthNum{
+    width:60%;
+}
+.removeButton{
+    border: 1px solid #7D4F50;
+    border-radius: 5px 10px;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 17px;
+}
+#loginForm{
+    border-radius: 5px 10px;
+    border:3px solid #839791;
+    box-shadow: 10px 10px #7D4F50;
+}
+.margin-top50{
+    margin-top:7%;
+}
+#authorImg img{
+    border-radius: 10px 30px;
+}
+#authorText{
+    border-radius: 10px 30px;
+    border:3px solid #7D4F50;
+}
+.register:hover{
+    text-decoration: none;
+    color:#7D4F50;
+}
+.rowItem{
+   margin-top:5%;
+
+}
+.imgWidth{
+    width:70px;
+}
+
+.mAuto{
+  margin:0 auto;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fa-inbox{
+   font-size:19px;
+}
+.stat{
+    font-size:24px;
+    color:#7D4F50;
+    margin-right: 5px;
+}
+.colorBlue{
+    color:#2d3748;
+}
+.navbar-brand2 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+
+
+}
+@media screen and (max-width:1440px){
+    .btnProduct{
+        font-size:12px;
+    }
+
+
+}
+@media screen and (max-width:1025px){
+    .btnProduct{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:769px){
+    ul li{
+        display: block !important;
+    }
+    #navigation i{
+        display: block !important;
+    }
+    #motto{
+        margin-top: 35%;
+        margin-bottom: 3%;
+    }
+    #motto h2{
+        font-size: 18px;
+
+    }
+    .marginTop{
+        margin-top: 15%;
+    }
+    .btnProduct{
+        font-size:13px;
+    }
+    .rowItem{
+        margin-top:0%;
+
+    }
+    .marginTB2{
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:426px){
+    .centering{
+        font-size:20px;
+    }
+    #banner{
+        height: 300px;
+        margin-top: 17%;
+    }
+
+    #motto h2{
+        font-size: 10px;
+        padding:0px;
+    }
+    .dugme{
+        font-size:14px;
+    }
+    .marginTop{
+        margin-top: 30%;
+    }
+    .btnProduct{
+        font-size:12px;
+    }
+    .marginTB2{
+        margin-top: 15%;
+        margin-bottom: 3%;
+    }
+
+    #filterP{
+        position: initial;
+    }
+}
+@media screen and (max-width:376px){
+    .btnProduct{
+        font-size:11px;
+    }
+    .marginTB2{
+        margin-top: 19%;
+        margin-bottom: 3%;
+    }
+}
